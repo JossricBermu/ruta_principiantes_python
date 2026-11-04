@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' /home/joss/Documents/Python/CodigoFacilito/ruta_para_princioiantes_en_python/fundamentos_de_python/curso_instalacion_y_configuracion_de_python/env/bin/python3 "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from IPython import start_ipython
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(start_ipython())

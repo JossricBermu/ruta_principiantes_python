@@ -1,0 +1,5 @@
+print("Bienvenido al registro del bootcamp")
+nombre = input("Por favor ingrese su nombre: ")
+edad = input("Por favor ingrese su eda: ")
+print("Gracias por su inscripción", nombre)
+print("T uedad es: ", edad)
